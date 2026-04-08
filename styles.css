@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+.site-header{
+    background-color: darkgoldenrod;
+} 
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: burlywood;
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
+.header-nav{
+    background-color: chocolate;
+}
+.header-nav-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+.header-link{
+    background-color: antiquewhite;
+    padding: 10px;
+    display: block;
+}
+.dropdown{
+    background-color: aliceblue;
+    position: absolute;
+    display: none;
+}
+
+.has-dropdown:hover .dropdown{
+    display: block;
+}
